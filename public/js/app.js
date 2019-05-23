@@ -4,7 +4,7 @@ $(function(){
     const renderKudos = function(kudos){
         $('#kudosCol').empty();
         kudos.forEach(function(data){
-            $('#kudosCol').append(buildKudosCard(data));
+            $('#kudosCol').prepend(buildKudosCard(data));
         });
     };
     const renderUsers = function(users) {
