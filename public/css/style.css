@@ -1,7 +1,7 @@
 body {
     margin: 30px 5%;
-    background-color: #eee; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#fff, #ddd); /* Standard syntax (must be last) */
+    background-image: url(../assets/polaroid_@2X.png);
+    background-repeat: repeat;
 }
 
 .col-md-12 {
@@ -13,7 +13,7 @@ h3 {
     width: 50%;
 }
 
-.fa-grin-stars {
+.fa-thumbs-up {
     width: 50%;
     text-align: right;
 }
@@ -22,21 +22,16 @@ hr {
     padding-right: 10%;
 }
 
-#buttonDiv {
-    display: inline;
-    align-content: left;
-}
-
 #loveBtn {
     border-radius: 8px;
-    font-size: 30px;
-    
-    /* height: 60px; */
+    font-size: 3vw;
+    margin: 2vh 2vh 2vh 0;
 }
 
 .kudosCard{
     text-align: center;
     width: 100%;
-    /* transform: translateX(1.6666%); */
-    border-radius: 8px;
+    border-radius: 10px;
+    margin-bottom: 1vh;
+    padding: 1vh 2vh;
 }
