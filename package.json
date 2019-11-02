@@ -1,7 +1,7 @@
 {
   "name": "tiny-improvements",
   "version": "1.0.0",
-  "description": "",
+  "description": "Give Kudos To Coworkers",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +19,6 @@
   "homepage": "https://github.com/scottrollan/Tiny-Improvements#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "mongoose": "^5.4.16"
+    "mongoose": "^5.7.5"
   }
 }
